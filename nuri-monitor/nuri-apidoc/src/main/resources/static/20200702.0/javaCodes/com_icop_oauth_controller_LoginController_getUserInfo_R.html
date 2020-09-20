@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>R</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.css">
+<link href="../style.css" rel="stylesheet" />
+</head>
+<body onload="PR.prettyPrint()">
+<pre class="prettyprint lang-java">
+public class R implements Serializable{
+
+    private int code; //("响应编码:0/200-请求处理成功")
+    private boolean defExec; //
+    private Object[] data; //响应数据
+    private String msg; //提示消息
+    private String path; //请求路径
+    private Object extra; //附加数据
+    private long timestamp; //响应时间戳
+
+    public int getCode(){
+        return code;
+    }
+
+    public void setCode(int code){
+        this.code = code;
+    }
+
+    public boolean getDefExec(){
+        return defExec;
+    }
+
+    public void setDefExec(boolean defExec){
+        this.defExec = defExec;
+    }
+
+    public Object[] getData(){
+        return data;
+    }
+
+    public void setData(Object[] data){
+        this.data = data;
+    }
+
+    public String getMsg(){
+        return msg;
+    }
+
+    public void setMsg(String msg){
+        this.msg = msg;
+    }
+
+    public String getPath(){
+        return path;
+    }
+
+    public void setPath(String path){
+        this.path = path;
+    }
+
+    public Object getExtra(){
+        return extra;
+    }
+
+    public void setExtra(Object extra){
+        this.extra = extra;
+    }
+
+    public long getTimestamp(){
+        return timestamp;
+    }
+
+    public void setTimestamp(long timestamp){
+        this.timestamp = timestamp;
+    }
+
+}
+</pre>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/google-code-prettify@1.0.5/bin/prettify.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: test-services
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.54.87.66:8848
+        namespace: ICOP-NURI
+        group: develop
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+
+

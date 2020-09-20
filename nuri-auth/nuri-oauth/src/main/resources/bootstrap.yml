@@ -1,0 +1,40 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: @project.artifactId@
+  profiles:
+    active: @profile.active@
+  cloud:
+    nacos:
+      config:
+        server-addr: @nacos.ip@:@nacos.port@
+        namespace: @nacos.namespace@
+        group: @nacos.group@
+        enabled: true
+      discovery:
+        server-addr: @nacos.ip@:@nacos.port@
+        namespace: @nacos.namespace@
+        group: @nacos.group@
+        enabled: true
+
+#logging:
+#  file:
+#    path: @log.file.path@
+#    name: ${spring.application.name}
+#  config: classpath:logback-spring.xml
+#    name: ${log.file.path}/${spring.application.name}/application.log
+#log:
+#  file:
+#    path:${log.file.path}
+#logging:
+#  config: classpath:logback-spring.xml
+
+# 用于/actuator/info
+info:
+  name: '@project.name@'
+  description: '@project.description@'
+  version: '@project.version@'
+  spring-boot-version: '${spring.boot.version}'
+

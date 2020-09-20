@@ -1,0 +1,102 @@
+七月 02, 2020 3:02:28 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find multi modules in this project: [test-services, nuri-monitor, nuri-auth, icop-common, nuri-hystrix, nuri-gateway]
+七月 02, 2020 3:02:28 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [D:\Document\WorkSpace\Idea\personal\clound\nuri\test-services\src\main\java\, D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-monitor\nuri-apidoc\src\main\java\, D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\, D:\Document\WorkSpace\Idea\personal\clound\nuri\icop-common\icop-base\src\main\java\, D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-hystrix\src\main\java\, D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-gateway\src\main\java\]
+七月 02, 2020 3:02:28 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+七月 02, 2020 3:02:28 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\Document\WorkSpace\Idea\personal\clound\nuri\test-services\src\main\java\
+七月 02, 2020 3:02:28 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : TestController.java
+七月 02, 2020 3:02:28 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-monitor\nuri-apidoc\src\main\java\
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : CaptchaController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : ExceptionFallbackController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : LoginController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : TokenController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\Document\WorkSpace\Idea\personal\clound\nuri\icop-common\icop-base\src\main\java\
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-hystrix\src\main\java\
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-gateway\src\main\java\
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : FallbackController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : TestController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : TestController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : CaptchaController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : CaptchaController.java
+七月 02, 2020 3:02:29 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : ExceptionFallbackController.java
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\Document\WorkSpace\Idea\personal\clound\nuri\icop-common\icop-base\src\main\java\com\icop\base\entities\R.java, className : Map, we cannot found more information of it, you've better to make it a JavaBean
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : ExceptionFallbackController.java
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : LoginController.java
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\Document\WorkSpace\Idea\personal\clound\nuri\icop-common\icop-base\src\main\java\com\icop\base\entities\R.java, className : Map, we cannot found more information of it, you've better to make it a JavaBean
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\LoginController.java, className : UserInfo, we cannot found more information of it, you've better to make it a JavaBean
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\Document\WorkSpace\Idea\personal\clound\nuri\icop-common\icop-base\src\main\java\com\icop\base\entities\R.java, className : Map, we cannot found more information of it, you've better to make it a JavaBean
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : LoginController.java
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : TokenController.java
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\Document\WorkSpace\Idea\personal\clound\nuri\icop-common\icop-base\src\main\java\com\icop\base\entities\R.java, className : Map, we cannot found more information of it, you've better to make it a JavaBean
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : TokenController.java
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : FallbackController.java
+七月 02, 2020 3:02:30 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+七月 02, 2020 3:02:31 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\Document\WorkSpace\Idea\personal\clound\nuri\icop-common\icop-base\src\main\java\com\icop\base\entities\R.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+七月 02, 2020 3:02:31 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : D:\Document\WorkSpace\Idea\personal\clound\nuri\icop-common\icop-base\src\main\java\com\icop\base\entities\R.java, className : Map, we cannot found more information of it, you've better to make it a JavaBean
+七月 02, 2020 3:02:31 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : FallbackController.java
+七月 02, 2020 3:02:31 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+七月 02, 2020 3:02:31 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\test-services\src\main\java\com\icop\testservices\controller\TestController.java
+七月 02, 2020 3:02:32 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\test-services\src\main\java\com\icop\testservices\controller\TestController.java
+七月 02, 2020 3:02:32 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\CaptchaController.java
+七月 02, 2020 3:02:32 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\CaptchaController.java
+七月 02, 2020 3:02:32 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\ExceptionFallbackController.java
+七月 02, 2020 3:02:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\ExceptionFallbackController.java
+七月 02, 2020 3:02:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\LoginController.java
+七月 02, 2020 3:02:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\LoginController.java
+七月 02, 2020 3:02:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\TokenController.java
+七月 02, 2020 3:02:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-auth\nuri-oauth\src\main\java\com\icop\oauth\controller\TokenController.java
+七月 02, 2020 3:02:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-gateway\src\main\java\com\icop\gateway\controller\FallbackController.java
+七月 02, 2020 3:02:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\Document\WorkSpace\Idea\personal\clound\nuri\nuri-gateway\src\main\java\com\icop\gateway\controller\FallbackController.java
+七月 02, 2020 3:02:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index start !!!
+七月 02, 2020 3:02:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index done !!!
+七月 02, 2020 3:02:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>nuri</artifactId>
+        <groupId>com.icop.nuri</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>icop-common</artifactId>
+    <name>${project.artifactId}</name>
+    <packaging>pom</packaging>
+    <modules>
+        <module>icop-schema</module>
+        <module>icop-base</module>
+        <module>icop-redis</module>
+        <module>icop-message</module>
+        <module>SelfItem</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
+
+        <mybatis.plus.version>3.3.2</mybatis.plus.version>
+        <mysql.connector.version>8.0.13</mysql.connector.version>
+        <druid.spring.boot>1.1.22</druid.spring.boot>
+        <lombok.version>1.16.18</lombok.version>
+        <junit.version>4.12</junit.version>
+        <commons.lang3>3.9</commons.lang3>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons.lang3}</version>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
+</project>

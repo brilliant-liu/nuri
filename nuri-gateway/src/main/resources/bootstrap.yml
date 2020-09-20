@@ -1,0 +1,60 @@
+server:
+  port: 8094
+
+spring:
+  application:
+    name: @project.artifactId@
+  profiles:
+    active: @profile.active@
+  cloud:
+    nacos:
+      config:
+        server-addr: @nacos.ip@:@nacos.port@
+        namespace: @nacos.namespace@
+        group: @nacos.group@
+        enabled: true
+      discovery:
+        server-addr: @nacos.ip@:@nacos.port@
+        namespace: @nacos.namespace@
+        group: @nacos.group@
+        enabled: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: test_route
+          uri: lb://test-services
+          predicates:
+            - Path=/test/**
+    sentinel:
+      enabled: true
+      transport:
+        dashboard: localhost:8080 # 配置sentinel dashboard地址
+        #dashboard: @sentinel.ip.port@ # 配置sentinel dashboard地址
+        port: 8719 # 默认8719端口，如果被占用会自动从8719开始扫描+1，直至找到未被占用的端口
+#        - id: oauth_route
+#          uri: lb://nuri-oauth
+#          predicates:
+#            - Path=/unoauth/login/login/**
+#        - id: prefixpath_route
+#          uri: lb://nuri-oauth
+#          filters:
+#            - PrefixPath=/unoauth/login/**
+
+
+#logging:
+#  file:
+#    path: @log.file.path@
+#    name: ${log.file.path}/${spring.application.name}/application.log
+
+#logging:
+#  config: classpath:logback-spring-dev.xml
+
+# 用于/actuator/info
+info:
+  name: '@project.name@'
+  description: '@project.description@'
+  version: '@project.version@'
+  spring-boot-version: '${spring.boot.version}'
+

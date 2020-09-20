@@ -1,0 +1,33 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: @project.artifactId@
+  profiles:
+    active: @profile.active@
+  cloud:
+    nacos:
+      config:
+        server-addr: @nacos.ip@:@nacos.port@
+        namespace: @nacos.namespace@
+        group: @nacos.group@
+        enabled: true
+      discovery:
+        server-addr: @nacos.ip@:@nacos.port@
+        namespace: @nacos.namespace@
+        group: @nacos.group@
+        enabled: true
+
+logging:
+  file:
+    path: @log.file.path@
+    name: ${log.file.path}/${spring.application.name}/application.log
+
+# 用于/actuator/info
+info:
+  name: '@project.name@'
+  description: '@project.description@'
+  version: '@project.version@'
+  spring-boot-version: '${spring.boot.version}'
+
